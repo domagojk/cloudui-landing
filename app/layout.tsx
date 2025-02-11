@@ -13,7 +13,20 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <link rel="icon" href="/favicon.ico" sizes="any" />
+      <link
+        rel="icon"
+        href="/favicon.svg"
+        type="image/svg+xml"
+        media="(prefers-color-scheme: light)"
+        sizes="any"
+      />
+      <link
+        rel="icon"
+        href="/favicon-dark.svg"
+        type="image/svg+xml"
+        media="(prefers-color-scheme: dark)"
+        sizes="any"
+      />
       <body>{children}</body>
     </html>
   );
