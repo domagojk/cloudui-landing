@@ -34,7 +34,7 @@ export default function LandingPage() {
       <header className="container mx-auto flex h-16 items-center justify-between px-4">
         <Link className="flex items-center space-x-2" href="#">
           <Image
-            src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Group%20134-622WlvaEqReTuRxdKkiZhvLlbASahO.svg"
+            src="/logo.svg"
             alt="CloudUI Logo"
             width={32}
             height={32}
@@ -84,48 +84,79 @@ export default function LandingPage() {
             </div>
             <div className="mx-auto max-w-5xl flex flex-col items-center pt-2">
               <Image
-                src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/MacBook%20Pro%2014_%20-%201(10)-GxzlX1U6ulwouxTi3RN9ukwQjOMWd3.png"
+                src="/hero.png"
                 alt="CloudUI Dashboard Interface showing real-time AWS metrics and monitoring"
                 width={800}
                 height={400}
-                className="rounded-lg shadow-2xl shadow-black/20"
+                className="rounded-xl shadow-2xl shadow-black/20"
               />
             </div>
-            <div className="container max-w-[800px] mx-auto pt-6 px-4 md:px-0">
-              <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8 md:pl-12 sm:pl-20">
+            <div className="container max-w-[800px] mx-auto pt-6 px-4 md:px-0 hidden md:block">
+              <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-12 pl-4">
                 <div className="flex items-center gap-3">
                   <div className="p-2 rounded-lg">
-                    <BarChart3 className="w-6 h-6" />
+                    <Image
+                      src="/custom-dashboard-icon.svg"
+                      alt="Custom Dashboard Icon"
+                      width={60}
+                      height={60}
+                    />
                   </div>
                   <span className="font-medium">Custom dashboards</span>
                 </div>
+
                 <div className="flex items-center gap-3">
                   <div className="p-2 rounded-lg">
-                    <Search className="w-6 h-6" />
+                    <Image
+                      src="/logs-icon.svg"
+                      alt="Logs Icon"
+                      width={60}
+                      height={60}
+                    />
                   </div>
                   <span className="font-medium">Logs</span>
                 </div>
                 <div className="flex items-center gap-3">
                   <div className="p-2 rounded-lg">
-                    <Cpu className="w-6 h-6" />
+                    <Image
+                      src="/ec2-icon.svg"
+                      alt="Logs Icon"
+                      width={60}
+                      height={60}
+                    />
                   </div>
                   <span className="font-medium">EC2 manager</span>
                 </div>
                 <div className="flex items-center gap-3">
                   <div className="p-2 rounded-lg">
-                    <Database className="w-6 h-6" />
+                    <Image
+                      src="/dynamodb-icon.svg"
+                      alt="DynamoDB Icon"
+                      width={60}
+                      height={60}
+                    />
                   </div>
                   <span className="font-medium">DynamoDB</span>
                 </div>
                 <div className="flex items-center gap-3">
                   <div className="p-2 rounded-lg">
-                    <Database className="w-6 h-6" />
+                    <Image
+                      src="/sql-icon.svg"
+                      alt="SQL Icon"
+                      width={60}
+                      height={60}
+                    />
                   </div>
                   <span className="font-medium">SQL client</span>
                 </div>
                 <div className="flex items-center gap-3">
                   <div className="p-2 rounded-lg">
-                    <Inbox className="w-6 h-6" />
+                    <Image
+                      src="/s3-icon.svg"
+                      alt="S3 Icon"
+                      width={60}
+                      height={60}
+                    />
                   </div>
                   <span className="font-medium">S3 manager</span>
                 </div>
@@ -140,7 +171,7 @@ export default function LandingPage() {
             </p>
             <div className="flex items-center justify-center gap-2">
               <Image
-                src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Mask%20group-T9jMwpKSz8TQ77hDp5gp87EOIpmXEE.svg"
+                src="/vscode-logo.svg"
                 alt="VS Code Logo"
                 width={21}
                 height={21}
@@ -199,7 +230,7 @@ export default function LandingPage() {
                   <div className="mt-1">
                     <div className="h-5 w-5 bg-green-500 rounded-full flex items-center justify-center">
                       <Image
-                        src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Vector-ucX169IgVo0Jj9erUazh1sPoqPa0Gq.svg"
+                        src="/check.svg"
                         alt=""
                         width={10}
                         height={9}
@@ -241,7 +272,7 @@ export default function LandingPage() {
                   <div className="mt-1">
                     <div className="h-5 w-5 bg-green-500 rounded-full flex items-center justify-center">
                       <Image
-                        src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Vector-ucX169IgVo0Jj9erUazh1sPoqPa0Gq.svg"
+                        src="/check.svg"
                         alt=""
                         width={10}
                         height={9}
@@ -284,7 +315,7 @@ export default function LandingPage() {
                   <div className="mt-1">
                     <div className="h-5 w-5 bg-green-500 rounded-full flex items-center justify-center">
                       <Image
-                        src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Vector-ucX169IgVo0Jj9erUazh1sPoqPa0Gq.svg"
+                        src="/check.svg"
                         alt=""
                         width={10}
                         height={9}
@@ -326,7 +357,7 @@ export default function LandingPage() {
                   <div className="mt-1">
                     <div className="h-5 w-5 bg-green-500 rounded-full flex items-center justify-center">
                       <Image
-                        src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Vector-ucX169IgVo0Jj9erUazh1sPoqPa0Gq.svg"
+                        src="/check.svg"
                         alt=""
                         width={10}
                         height={9}
@@ -389,7 +420,7 @@ export default function LandingPage() {
               </ul>
             </div>
             <Image
-              src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/MacBook%20Pro%2014_%20-%201(4)%201(3)-YodiuYB4b6z6KuF3L9qGxlPWIyuY3Q.png"
+              src="/logs-managment.png"
               alt="CloudUI Logs Interface showing real-time log entries with timestamps and performance metrics"
               width={500}
               height={300}
@@ -401,7 +432,7 @@ export default function LandingPage() {
         <section className="max-w-4xl mx-auto px-4 pt-32">
           <div className="flex flex-col md:flex-row gap-14">
             <Image
-              src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/MacBook%20Pro%2014_%20-%201(9)%201-Sa9IVEuFKgmDUsERdcPxq5cc24itMt.png"
+              src="/db-tools.png"
               alt="CloudUI Database Interface showing JSON data with syntax highlighting and change tracking"
               width={500}
               height={300}
@@ -484,7 +515,7 @@ export default function LandingPage() {
               </ul>
             </div>
             <Image
-              src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/MacBook%20Pro%2014_%20-%201(3)%202(1)-6yDpzsfjBSjGjoE2pFWhLAmj9B7KNS.png"
+              src="/custom-dashboard.png"
               alt="CloudUI Dashboard showing Lambda duration metrics, S3 bucket sizes, and error tracking with endpoint paths"
               width={500}
               height={300}
@@ -496,7 +527,7 @@ export default function LandingPage() {
         <section className="max-w-4xl mx-auto px-4 pt-32">
           <div className="flex flex-col md:flex-row gap-14">
             <Image
-              src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/s3manager-FITXi7Wlp1aYjGfYzxHdzquWMq1Sii.png"
+              src="/s3-manager.png"
               alt="CloudUI S3 Manager showing folder structure, file preview, and metadata panel with region and ownership details"
               width={500}
               height={300}
@@ -620,7 +651,7 @@ export default function LandingPage() {
                       {feature.included ? (
                         <div className="h-5 w-5 bg-green-500 rounded-full flex items-center justify-center">
                           <Image
-                            src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Vector-ucX169IgVo0Jj9erUazh1sPoqPa0Gq.svg"
+                            src="/check.svg"
                             alt=""
                             width={10}
                             height={9}
