@@ -157,7 +157,11 @@ export default function LandingPage() {
           </div>
         </section>
         <section>
-          <div className={`${notoSans.className} mt-10 text-center space-y-2`}>
+          <a
+            href="https://marketplace.visualstudio.com/items?itemName=devAdvice.serverlessconsole&ssr=false"
+            target="_blank"
+            className={`${notoSans.className} mt-10 text-center space-y-2`}
+          >
             <p className="text-l text-gray-600">
               from the creators of VS Code extension:
             </p>
@@ -185,7 +189,7 @@ export default function LandingPage() {
               ))}
             </div>
             <p className="text-gray-600 text-sm">25,000 installs</p>
-          </div>
+          </a>
         </section>
 
         <section className="max-w-5xl mx-auto px-4 pt-16">
