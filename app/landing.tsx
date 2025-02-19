@@ -4,15 +4,7 @@ import { Baloo_2 } from "next/font/google";
 import { Noto_Sans } from "next/font/google";
 import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
-import {
-  Check,
-  BarChart3,
-  Search,
-  Database,
-  Cpu,
-  Inbox,
-  X,
-} from "lucide-react";
+import { Check, X } from "lucide-react";
 
 const baloo2 = Baloo_2({
   weight: ["400", "600"],
