@@ -70,9 +70,11 @@ export default function LandingPage() {
               </p>
             </div>
             <div className="">
-              <Button className="bg-[#FF6200] text-white hover:bg-[#FF4D00] text-lg py-3 px-8">
-                Get CloudUI
-              </Button>
+              <a href="#pricing">
+                <Button className="bg-[#FF6200] text-white hover:bg-[#FF4D00] text-lg py-3 px-8">
+                  Get CloudUI
+                </Button>
+              </a>
             </div>
             <div className="mx-auto max-w-5xl flex flex-col items-center pt-2">
               <Image
@@ -669,15 +671,24 @@ export default function LandingPage() {
                     </li>
                   ))}
                 </ul>
-                <Button className="w-full bg-[#FF6200] text-white hover:bg-[#FF4D00] h-12 text-md">
-                  Join Early Access
-                </Button>
+                <a
+                  href="https://docs.google.com/forms/d/e/1FAIpQLSduP2WAW84xIvWQVztHR80n0rcgR7fOOIjkoOTAsvwSiSK8Vg/viewform"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <Button className="w-full bg-[#FF6200] text-white hover:bg-[#FF4D00] h-12 text-md">
+                    Join Early Access
+                  </Button>
+                </a>
               </Card>
             ))}
           </div>
           <p className="mt-8 text-center text-base">
             Looking for <span className="font-medium">company licenses</span>?{" "}
-            <Link href="#" className="text-[#FF6200] hover:underline">
+            <Link
+              href="mailto:hello@cloud-ui.com"
+              className="text-[#FF6200] hover:underline"
+            >
               Contact us
             </Link>{" "}
             for custom pricing

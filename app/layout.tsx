@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import "./globals.css";
-import { Analytics } from "@vercel/analytics/react";
+import { GoogleAnalytics } from "@next/third-parties/google";
 
 export const metadata: Metadata = {
   title: "CloudUI | Focus on solving problems, not navigating the AWS Console",
@@ -28,10 +28,8 @@ export default function RootLayout({
         media="(prefers-color-scheme: dark)"
         sizes="any"
       />
-      <body>
-        {children}
-        <Analytics />
-      </body>
+      <body>{children}</body>
+      <GoogleAnalytics gaId="G-HGKX2FLH1X" />
     </html>
   );
 }
