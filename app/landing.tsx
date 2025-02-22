@@ -701,11 +701,6 @@ export default function LandingPage() {
           <nav className="flex gap-4"></nav>
         </div>
       </footer>
-      <style jsx global>{`
-        html {
-          scroll-behavior: smooth;
-        }
-      `}</style>
     </div>
   );
 }
